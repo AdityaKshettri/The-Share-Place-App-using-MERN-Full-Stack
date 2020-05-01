@@ -6,22 +6,6 @@ import {useHttpClient} from '../../shared/hooks/http-hook';
 import ErrorModal from '../../shared/components/UIElements/ErrorModal';
 import LoadingSpinner from '../../shared/components/UIElements/LoadingSpinner';
 
-// const DUMMY_PLACES = [
-//   {
-//     id: 'p1',
-//     title: 'V Mart',
-//     description: 'The best place for shopping!',
-//     imageUrl:
-//       'https://lh3.googleusercontent.com/p/AF1QipNNBlyaYbH7EMYPNqaSKgd8wmtjcgTU8wbcGfax=s1600-w400',
-//     address: '716, Mangalam Marriage Hall, Medical College Road, Shahpur, Gorakhpur, Uttar Pradesh 273001',
-//     location: {
-//       lat: 26.77368,
-//       lng: 83.3813757
-//     },
-//     creator: 'u1'
-//   }
-// ];
-
 const UserPlaces = () => {
 	const [loadedPlaces, setLoadedPlaces] = useState();
 	const {isLoading, error, sendRequest, clearError} = useHttpClient();
