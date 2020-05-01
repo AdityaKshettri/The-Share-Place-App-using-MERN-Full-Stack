@@ -19,7 +19,9 @@ Backend ==> https://the-share-place-app.herokuapp.com/
 
 > npm start
 
-4- Keep the server running and start working with the frontend.
+4- The node server starts at http://localhost:5000/ which is our REST API.
+
+5- Keep the server running and start working with the frontend.
 
 # How to work with the frontend :
 
@@ -34,6 +36,8 @@ Backend ==> https://the-share-place-app.herokuapp.com/
 > npm start
 
 4- Goto the http://localhost:3000/ to see the website's homepage.
+
+5- There you can perform all CRUD operations on different locations as well as share it with other users.
 
 
 
