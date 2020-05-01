@@ -45,7 +45,7 @@ const signup = async (req, res, next) => {
         name,
         email,
         password,
-        image: 'https://static.thenounproject.com/png/17241-200.png',
+        image: req.file.path,
         places: []
     });
     
